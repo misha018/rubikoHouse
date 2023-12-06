@@ -1,0 +1,1232 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+* {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#root {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  height: 98px;
+  align-items: center;
+  position: fixed;
+  background-color: whitesmoke;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+.logo-nav {
+  margin-left: 160px;
+  width: 150px;
+  margin-top: 9px;
+  margin-right: 400px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  max-width: 1280px;
+  padding: 20px;
+}
+
+.upravnik-li {
+  position: relative;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.zaposljavanje-li {
+  position: relative;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.kontakt-li {
+  position: relative;
+  margin-right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.galerija-li {
+  font-size: 14px;
+  font-weight: bold;
+}
+.galerija-li:hover {
+  cursor: pointer;
+}
+.galerija-dropdown-galerija2:hover {
+  border: 1px;
+}
+
+
+
+.footer {
+  display: flex;
+  position: relative;  
+  bottom: 0;
+  font-size: 12px;
+  background-color: rgb(138, 138, 224);
+  color: black;
+  padding: 30px;
+  padding-top: 40px;
+  gap: 300px;
+  width: 100%;
+  height: 340px;
+  margin-left: -8px;
+}
+
+.div-footer-glavni {
+  display: flex;
+}
+.divfooter {
+  left: 0;
+  bottom: 0;
+  justify-content: center;
+  color: wheat;
+}
+
+.divfooter-2 {
+  margin-right: 300px;
+}
+
+.divfooter-3 {
+  margin-right: 200px;
+  
+}
+
+.span-footer {
+  margin-left: 70px;
+}
+
+.p-footer {
+  margin-left: 70px;
+}
+
+main {
+  z-index: 1000000000;
+  padding-top: 90px;
+}
+
+
+.footer-img {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 110px;
+  margin-bottom: 100px;
+  width: 190px;
+  height: 80px;
+}
+
+.footer-ul-1 {
+  padding-top: 10px;
+  margin-top: 30px;
+  word-spacing: 0.2rem;
+  text-decoration: none;
+  outline: 0;
+}
+
+
+.footer-elements {
+  text-decoration: none;
+  outline: 0;
+  padding-bottom: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+
+.footer-elements:hover {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.footer-elements:visited {
+  text-decoration: none !important;
+  outline: 0;
+  color: red;
+}
+.footer-elements:focus {
+  text-decoration: none;
+  outline: 0;
+}
+
+.footer-elements:link {
+  text-decoration: none;
+  outline: 0;
+}
+.footer-elements:active {
+  text-decoration: none;
+  outline: 0;
+}
+
+.footer-ul-2 {
+  padding-top: 10px;
+  margin-top: 30px;
+  word-spacing: 0.2rem;
+  text-decoration: none;
+  outline: 0;
+  list-style: none;
+}
+
+.footer-elements-2 {
+  text-decoration: none;
+  outline: 0;
+  padding-bottom: 20px;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 14px;
+  color: aliceblue !important;
+}
+
+.footer-elements-3 {
+  text-decoration: none;
+  outline: 0;
+  padding-bottom: 10px;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 14px;
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+.footer-elements-4 {
+  text-decoration: none;
+  outline: 0;
+  font-weight: bold;
+  list-style-type: none;
+  font-size: 12px;
+  color: aliceblue;
+}
+
+.ig-footer {
+  height: 30px;
+  width: 30px;
+  margin-left: 16px;
+}
+.fb-footer {
+  height: 30px;
+  width: 30px;
+}
+
+.mail-footer {
+  height: 30px;
+  width: 30px;
+  margin-left: 16px;
+}
+
+.madeBY {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  color: aquamarine;
+  border-top: 2px solid black;
+  background-color: transparent;
+  width: 100%;
+  margin-left: -8px;
+  height: auto;
+}
+
+
+
+
+
+
+
+.galerija-dropdown {
+  position: absolute;
+  margin: 20px;
+  justify-content: center;
+  display: inline;
+  padding-top: 40px;
+  word-spacing: normal;
+  right: 705px;
+  z-index: 100;
+  width: 1000px;
+
+}
+
+
+
+
+.galerija-li {
+  position: relative;
+  margin-right: 40px;
+  width: 70px;
+}
+
+.galerija-dropdown-galerija1 {
+  padding-bottom: 16px;
+  background-color: whitesmoke;
+  border-top: 1px solid;
+  text-align: center;
+}
+.galerija-dropdown-galerija2 {
+  padding-bottom: 16px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+.galerija-dropdown-galerija2:hover {
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+.galerija-dropdown-galerija1:hover {
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+.galerija-dropdown {
+  width: 250px;
+  transition: all 0.3s ease-in;
+}
+
+.dropdown-arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.upravnik-li:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+
+.galerija-li:hover {
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+
+.upravnik-dropdown {
+  display: inline-block;
+  position: fixed;
+  margin: 20px;
+  justify-content: center;
+  display: inline;
+  padding-top: 40px;
+  word-spacing: normal;
+  right: 550px;
+  width: 230px;
+  z-index: 100;
+}
+
+.upravnik-dropdown-upravnik1 {
+  padding-bottom: 16px;
+  background-color: whitesmoke;
+  border-top: 1px solid;
+  text-align: center;
+}
+
+.upravnik-dropdown-upravnik2 {
+  padding-bottom: 16px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.upravnik-dropdown-upravnik1:hover {
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+.upravnik-dropdown-upravnik2:hover {
+  text-shadow: 1px 1px 1px rgb(209, 209, 209);
+}
+
+
+.Alu1 {
+  width: 800px;
+  height: 400px;
+  left: 0;
+  max-width: 100%;
+  position: relative;
+}
+
+.rightarrow {
+  font-size: 100px;
+  position: relative;
+  color: white;
+  float: right;
+  top: 0%;
+  cursor: pointer;
+}
+.rightarrow:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+.leftarrow {
+  font-size: 100px;
+  position: relative;
+  color: white;
+  float: left;
+  top: 0%;
+  cursor: pointer;
+}
+.leftarrow:hover {
+  text-shadow: 2px 2px 2px black;
+}
+
+.dugme-slider {
+  width: 180px;
+  height: 40px;
+  background-color: rgb(255, 112, 112);
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  margin-left: 702px;
+  margin-top: 400px;
+  z-index: 99;
+}
+
+.dugme-slider:hover {
+  background-color: transparent;
+  border: 1px solid;
+}
+
+.div-container {
+  left: 0;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  margin-top: 340px;
+  font-size: 20px;
+  width: 100%;
+  left: 0;
+  max-width: 100%;
+  margin-bottom: 3000px;
+  background-color: whitesmoke;
+}
+
+.home-kontakt {
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 15px;
+}
+.home-kontakt:hover {
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+.h1-rubiko {
+  color: black;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+
+.p1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+
+  word-spacing: 1.2px;
+}
+.p2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 26px;
+  word-spacing: normal;
+}
+
+.rbklogo-main {
+  margin-top: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.div-tackice {
+  justify-content: center;
+  display: flex;
+  margin-left: 565px;
+  width: 100%;
+}
+
+.div-tackice-2 {
+  font-size: 40px;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-top: -6px;
+}
+
+.div-container-3 {
+  margin-top: 1030px;
+  display: flex;
+  padding: 50px;
+  width: 100%;
+  margin-left: 180px;
+  left: 0;
+  color: black;
+  height: 50px;
+}
+
+.p3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  word-spacing: 1.2px;
+}
+
+.div-cont-4 {
+  width: 75%;
+  height: 100px;
+}
+.p6 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  padding-left: 50px;
+  font-weight: bold;
+}
+
+.slika-main {
+  margin-left: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 300px;
+  padding-left: 50px;
+}
+
+.vidi-galeriju {
+  margin-left: 20px;
+  border: 0;
+  background-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.div-containter-5 {
+  width: 100%;
+  margin-top: 310px;
+}
+
+.span-knauf {
+  margin-left: 180px;
+  font-size: 15px;
+  padding: 50px;
+  text-decoration: underline;
+}
+
+.lista-knauf {
+  margin-left: 230px;
+  font-size: 14px;
+}
+
+.p7 {
+  margin-left: 230px;
+  margin-bottom: 20px;
+  margin-top: -1px;
+  font-size: 13px;
+}
+
+
+.div-cont-4-dugme {
+  height: 24px;
+  background-color: white;
+  border: 0;
+  margin-left: 16px;
+  font-size: 16px;
+  color: rgb(104, 0, 202);
+}
+
+.div-cont-4-dugme:hover {
+  background-color: wheat;
+  cursor: pointer;
+}
+
+.alu-text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  padding-left: 50px;
+  margin-left: 180px;
+}
+
+
+.div-cont-5-img {
+  height: 200px;
+  float: right;
+}
+
+.div-kontakt {
+  position: relative;
+  width: 100%;
+  height: 1100px;
+  display: block;
+  background-color: white;
+}
+
+
+.kontakt {
+  margin-top: 170px;
+  margin-left: 400px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  border-bottom: 2px solid;
+  width: 320px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-width: thick;
+}
+
+.kontakt-form-div {
+  display: flex;
+  margin-left: 400px;
+  position: relative;
+  width: 50%;
+}
+
+
+.kontakt-form-div-2 {
+  position: relative;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.kontakt-form {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: hsl(0, 8%, 85%);
+
+  border: 4px solid hsl(0, 0%, 90%);
+  display: grid;
+  gap: 40px;
+  width: 600px;
+}
+
+
+input {
+  border: 0.1px solid;
+  border-color: whitesmoke;
+  width: 300px;
+  height: 50px;
+}
+
+.dugme-posalji {
+  width: 200px;
+  height: 30px;
+  background-color: transparent;
+  border: 0;
+  font-size: 22px;
+  margin-bottom: 10px;
+  transform: translateX(100%);
+}
+
+.dugme-posalji:hover {
+  background-image: url("/images/rubikoNONbg.png");
+  background-repeat: repeat;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.poruka {
+  width: 600px;
+  height: 100px;
+  margin-top: -36px;
+}
+
+.poruka-span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.span-telefon {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+}
+
+.p-email {
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  margin-top: 50px;
+  height: 20px;
+}
+
+.span-error {
+  margin-top: -30px;
+  margin-bottom: -30px;
+  height: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: red;
+}
+
+.div-container-6 {
+  padding: 50px;
+  width: 100%;
+  margin-left: 180px;
+
+}
+
+.div-alu {
+  margin-top: 180px;
+  text-align: center;
+  width: auto;
+}
+
+.slika-galerija {
+  width: 400px;
+  padding: 10px;
+}
+
+.slika-galerija:hover {
+  opacity: 30%;
+  cursor: none;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fullscreen-modal {
+  max-width: 50%;
+  max-height: 50%;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+}
+.fullscreen-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.fullscreen-modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.div-upravljanje {
+  margin-top: 126px;
+  width: auto;
+  background-image: url("/images/rubikoNONbg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.ul-upravljanje {
+  font-size: 14px;
+  color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider-resp {
+  width: "800px";
+  height: "380px";
+  left: "0"
+}
+
+.mihailo {
+  display: none;
+}
+
+
+
+
+
+.menu-toggle-btn {
+  display: none; /* Hide the button by default for larger screens */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  ul {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+    display: none;
+  }
+
+  ul.active {
+    display: flex;
+  }
+
+  li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .dropdown-arrow {
+    display: none;
+  }
+
+  #galerija-div,
+  .upravnik-div {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+  }
+
+  #galerija-div.active,
+  .upravnik-div.active {
+    display: block;
+  }
+
+  .galerija-dropdown,
+  .upravnik-dropdown {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .galerija-dropdown li,
+  .upravnik-dropdown li {
+    margin: 10px 0;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo-nav {
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #galerija-div,
+  .upravnik-div {
+    display: none;
+    /* ... (previous styles) */
+  }
+
+  #galerija-div.active,
+  .upravnik-div.active {
+    display: block;
+  }
+
+  .menu-toggle-btn {
+    display: block; /* Show the button for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  ul {
+    display: none; /* Hide the navbar by default for smaller screens */
+  }
+
+  nav.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-footer-glavni {
+    align-items: center;
+    display: block;
+    width: 100%;
+    float: right;
+    position: relative;
+  }
+  nav ul {
+    display: none;
+  }
+
+
+  .footer {
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .divfooter{
+    left: 0;
+    display: block;
+    width: 100%;
+  }
+  .divfooter-2 {
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    margin-right: 0px;
+  }
+  .footer-ul-1 {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    justify-content: left;
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-color: rgb(138, 138, 224);
+    border: 0 !important;
+    left: 0;
+  }
+  .link-logo {
+    width: 100%;
+    top: 0;
+    left: 0;
+    float: right;
+    position: relative;
+  }
+  .divfooter-3 {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  .footer-ul-2 {
+    display: block;
+    font-size: 12px;
+    top: 0;
+    position: relative;
+    width: 100%;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(138, 138, 224);
+  }
+  .mihailo {
+    font-size: 12px;
+    display: flex;
+    color: black;
+    justify-content: center;
+  }
+
+  .footer-img {
+    width:auto;
+    justify-content: center;
+  }
+  .footer-elements {
+    font-size: 12px;
+  }
+
+  .footer-elements-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 138, 224);
+    font-size: 12px;
+  }
+  .footer-elements-3 {
+    display: none;
+  }
+  .footer-elements-4 {
+    display: none
+  }
+
+  .madeBY {
+    display: none;
+  }
+  
+  .p-footer {
+    display: none;
+  }
+
+  .slider-resp {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* Adjust styles for smaller screens */
+  ul {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+    display: none;
+  }
+
+  ul.active {
+    display: flex;
+  }
+
+  li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+
+  .dropdown-arrow {
+    display: none;
+  }
+
+  #galerija-div,
+  .upravnik-div {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background color */
+  }
+
+  #galerija-div.active,
+  .upravnik-div.active {
+    display: block;
+  }
+
+  .galerija-dropdown,
+  .upravnik-dropdown {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .galerija-dropdown li,
+  .upravnik-dropdown li {
+    margin: 10px 0;
+  }
+
+  .logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .logo-nav {
+    margin-left: 10px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  #galerija-div,
+  .upravnik-div {
+    display: none;
+    /* ... (previous styles) */
+  }
+
+  #galerija-div.active,
+  .upravnik-div.active {
+    display: block;
+  }
+
+  .menu-toggle-btn {
+    display: block; /* Show the button for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  ul {
+    display: none; /* Hide the navbar by default for smaller screens */
+  }
+
+  .galerija-dropdown {
+    width: auto;
+    background-color: #333;
+    height: auto;
+    margin: 0;
+    position: relative;
+    font-size: 10px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .dropdown-arrow {
+    display: inline;
+    width: 8px;
+    height: 8px;
+  }
+  .galerija-dropdown-galerija1 {
+    padding: 5px;
+    background-color: #333;
+  }
+  .galerija-dropdown-galerija2 {
+    padding: 5px;
+    background-color: #333;
+  }
+  .upravnik-li {
+    display: block;
+    z-index: 100000000000000000000000000000000000000000000000000;
+  }
+
+  nav.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div-footer-glavni {
+    align-items: center;
+    display: block;
+    width: 100%;
+    float: right;
+    position: relative;
+  }
+  nav ul {
+    display: none;
+  }
+
+
+  .footer {
+    padding: 8px;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .divfooter{
+    left: 0;
+    display: block;
+    width: 100%;
+  }
+  .divfooter-2 {
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    margin-right: 0px;
+  }
+  .footer-ul-1 {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    justify-content: left;
+    top: 0;
+    position: relative;
+    width: 100%;
+    background-color: rgb(138, 138, 224);
+    border: 0 !important;
+    left: 0;
+  }
+  .link-logo {
+    width: 100%;
+    top: 0;
+    left: 0;
+    float: right;
+    position: relative;
+  }
+  .divfooter-3 {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+  }
+  .footer-ul-2 {
+    display: block;
+    font-size: 12px;
+    top: 0;
+    position: relative;
+    width: 100%;
+    border: 0;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(138, 138, 224);
+  }
+  .mihailo {
+    font-size: 12px;
+    display: flex;
+    color: black;
+    justify-content: center;
+  }
+
+  .footer-img {
+    width:auto;
+    justify-content: center;
+  }
+  .footer-elements {
+    font-size: 12px;
+  }
+
+  .footer-elements-2 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(138, 138, 224);
+    font-size: 12px;
+  }
+  .footer-elements-3 {
+    display: none;
+  }
+  .footer-elements-4 {
+    display: none
+  }
+
+  .madeBY {
+    display: none;
+  }
+  
+  .p-footer {
+    display: none;
+  }
+
+  .slider-resp {
+    width: 100px;
+  }
+}
